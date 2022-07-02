@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class _03_Operators {
+public class _02_Operators {
     /*
      * Complete the 'solve' function below.
      *
@@ -34,7 +34,7 @@ class Solution {
 
         int tax_percent = Integer.parseInt(bufferedReader.readLine().trim());
 
-        _03_Operators.solve(meal_cost, tip_percent, tax_percent);
+        _02_Operators.solve(meal_cost, tip_percent, tax_percent);
 
         bufferedReader.close();
     }
